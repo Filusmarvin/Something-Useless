@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A lot of Something</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<form class="searchForm">
+			<input class="search" id="searchBar" type="search" placeholder="Dragon Ball">
+			<input type="submit" placeholder="search">
+		</form>
+		<div class="hero-name">
+			<h1>Gohan</h1>
+			<h1>Goku</h1>
+			<h1>Vegeta</h1>
+			<h1>Trunks</h1>
+			<h1>Goten</h1>
+		</div>
+		<div class="hidden navigation">
+			<div id="side-link">Hero's</div>
+			<ul class="heroes">
+				<li class="each-hero"><a href="#" onclick="goku()"> Goku</a></li>
+				<li class="each-hero"><a href="#" onclick="vegeta()"> Vegeta</a></li>
+				<li class="each-hero"><a href="#"onclick="gohan()"> Gohan</a></li>
+				<li class="each-hero"><a href="#" onclick="trunks()"> Trunks</a></li>
+				<li class="each-hero"><a href="#" onclick="goten()"> Goten</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+	<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="JS.js"></script>
+	<script src="javascript.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

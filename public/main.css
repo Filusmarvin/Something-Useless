@@ -1,0 +1,60 @@
+body{
+	background-image:url('./images/SSJ2_Gohan.jpg') ;
+}
+
+
+header{
+	color: white;
+	height: 250px;
+}
+a, a:hover, a:active, a:visited {
+	color: white; 
+}
+
+.searchForm{
+	text-align: center;
+}
+
+/*This is the the small div box to make the heroes show up*/
+#side-link{
+	background-color: darkblue;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	width: 100px;
+	height:40px;
+	font-size: 20px;
+}
+/*This is the h1 with the heroes names*/
+h1{
+	display: none;
+	text-align: center;
+
+}
+/*This makes the Div box have a small area for the hover effect*/
+.hidden{
+	position: fixed;
+	width:100px;
+}
+
+/*This takes away the dots*/
+.heroes{
+	list-style: none;
+	padding-left: 0;
+	position: relative;
+	display: none;
+	left: -100px;
+}
+/*This is to make the Li text center*/
+.each-hero{
+	text-align: center;
+	background-color: darkblue;
+	color: white;
+	padding: 5px;
+	border: 1px solid black;
+	width: 100px;
+}
+
+.each-hero:hover{
+	opacity: .5;
+}
