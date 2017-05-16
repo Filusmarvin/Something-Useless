@@ -1,18 +1,33 @@
 body{
 	background-image:url('./images/SSJ2_Gohan.jpg') ;
+	color: white;
 }
 
+.key{
+	margin: 10px;
+}
+
+.the-villains{
+	list-style: none;
+}
 
 header{
 	color: white;
 	height: 250px;
 }
 a, a:hover, a:active, a:visited {
-	color: white; 
+	color: white;
+}
+/* This is the header with the title Dragon Ball Super*/
+.title{
+	color: white;
+	text-align: center;
+	font-size: 70px;
 }
 
-.searchForm{
+.name{
 	text-align: center;
+	font-size: 60px;
 }
 
 /*This is the the small div box to make the heroes show up*/
@@ -26,14 +41,14 @@ a, a:hover, a:active, a:visited {
 	font-size: 20px;
 }
 /*This is the h1 with the heroes names*/
-h1{
+.z-fighters{
 	display: none;
 	text-align: center;
 
 }
 /*This makes the Div box have a small area for the hover effect*/
 .hidden{
-	position: fixed;
+	position: relative;
 	width:100px;
 }
 
@@ -57,4 +72,48 @@ h1{
 
 .each-hero:hover{
 	opacity: .5;
+}
+
+/*						=========						Each villian fought: 					==========;*/
+
+#fights{
+	display: flex;
+}
+
+/*								========				YouTube Video Player 						========								*/
+
+#player{
+	position: relative;
+	left:150px;
+}
+
+.overview{
+	color: white;
+	background-color: grey;
+	font-size: 20px;
+}
+
+.smallName{
+	font-size: 20px;
+}
+
+.gokufights{
+	position: absolute;
+	left:1200px;
+	top: 10px;
+}
+.gohanfights{
+	position: absolute;
+		left:1200px;
+		top: 10px;
+}
+.vegetafights{
+	position: absolute;
+	left:1200px;
+	top: 10px;
+}
+.trunksfights{
+	position: absolute;
+	left:1200px;
+	top: 10px;
 }
